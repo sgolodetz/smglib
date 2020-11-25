@@ -1,0 +1,24 @@
+[submodule "smg-utility"]
+	path = smg-utility
+	url = git@bitbucket.org:sgolodetz/smg-utility.git
+[submodule "smg-pyopencv"]
+	path = smg-pyopencv
+	url = git@bitbucket.org:sgolodetz/smg-pyopencv.git
+[submodule "smg-pyorbslam2"]
+	path = smg-pyorbslam2
+	url = git@bitbucket.org:sgolodetz/smg-pyorbslam2.git
+[submodule "smg-pyremode"]
+	path = smg-pyremode
+	url = git@bitbucket.org:sgolodetz/smg-pyremode.git
+[submodule "smg-rotory"]
+	path = smg-rotory
+	url = git@bitbucket.org:sgolodetz/smg-rotory.git
+[submodule "smg-openni"]
+	path = smg-openni
+	url = git@bitbucket.org:sgolodetz/smg-openni.git
+[submodule "smg-open3d"]
+	path = smg-open3d
+	url = git@bitbucket.org:sgolodetz/smg-open3d.git
+[submodule "smg-pyoctomap"]
+	path = smg-pyoctomap
+	url = git@bitbucket.org:sgolodetz/smg-pyoctomap.git
