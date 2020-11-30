@@ -25,3 +25,6 @@
 [submodule "smg-imagesources"]
 	path = smg-imagesources
 	url = git@bitbucket.org:sgolodetz/smg-imagesources.git
+[submodule "smg-mapping"]
+	path = smg-mapping
+	url = git@bitbucket.org:sgolodetz/smg-mapping.git
