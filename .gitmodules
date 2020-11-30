@@ -22,3 +22,6 @@
 [submodule "smg-pyoctomap"]
 	path = smg-pyoctomap
 	url = git@bitbucket.org:sgolodetz/smg-pyoctomap.git
+[submodule "smg-imagesources"]
+	path = smg-imagesources
+	url = git@bitbucket.org:sgolodetz/smg-imagesources.git
