@@ -28,3 +28,6 @@
 [submodule "smg-mapping"]
 	path = smg-mapping
 	url = git@bitbucket.org:sgolodetz/smg-mapping.git
+[submodule "smg-rigging"]
+	path = smg-rigging
+	url = git@bitbucket.org:sgolodetz/smg-rigging.git
