@@ -34,3 +34,6 @@
 [submodule "smg-pyorbslam3"]
 	path = smg-pyorbslam3
 	url = git@bitbucket.org:sgolodetz/smg-pyorbslam3.git
+[submodule "smg-relocalisation"]
+	path = smg-relocalisation
+	url = git@bitbucket.org:sgolodetz/smg-relocalisation.git
