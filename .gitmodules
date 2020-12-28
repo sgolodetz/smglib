@@ -37,3 +37,6 @@
 [submodule "smg-relocalisation"]
 	path = smg-relocalisation
 	url = git@bitbucket.org:sgolodetz/smg-relocalisation.git
+[submodule "smg-opengl"]
+	path = smg-opengl
+	url = git@bitbucket.org:sgolodetz/smg-opengl.git
