@@ -40,3 +40,6 @@
 [submodule "smg-opengl"]
 	path = smg-opengl
 	url = git@bitbucket.org:sgolodetz/smg-opengl.git
+[submodule "smg-mvdepthnet"]
+	path = smg-mvdepthnet
+	url = git@bitbucket.org:sgolodetz/smg-mvdepthnet.git
