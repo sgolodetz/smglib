@@ -20,8 +20,10 @@ dependencies:
     - cffi==1.14.4
     - colorama==0.4.4
     - cycler==0.10.0
+    - dataclasses==0.6
     - decorator==4.4.2
     - defusedxml==0.6.0
+    - future==0.18.2
     - importlib-metadata==3.1.0
     - ipykernel==5.3.4
     - ipython==7.19.0
@@ -58,9 +60,11 @@ dependencies:
     - pycparser==2.20
     - pygame==2.0.0
     - pygments==2.7.2
+    - pyopengl==3.1.5
     - pyparsing==2.4.7
     - pyrsistent==0.17.3
     - python-dateutil==2.8.1
+    - pytypes==1.0b5.post53
     - pywin32==300
     - pywinpty==0.5.7
     - pyzmq==20.0.0
@@ -69,8 +73,13 @@ dependencies:
     - six==1.15.0
     - terminado==0.9.1
     - testpath==0.4.4
+    - torch==1.7.0+cu101
+    - torchaudio==0.7.0
+    - torchvision==0.8.1+cu101
     - tornado==6.1
     - traitlets==5.0.5
+    - typing-extensions==3.7.4.3
+    - vg==1.9.0
     - wcwidth==0.2.5
     - webencodings==0.5.1
     - widgetsnbextension==3.5.1
