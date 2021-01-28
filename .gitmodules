@@ -43,3 +43,6 @@
 [submodule "smg-mvdepthnet"]
 	path = smg-mvdepthnet
 	url = git@bitbucket.org:sgolodetz/smg-mvdepthnet.git
+[submodule "smg-detectron2"]
+	path = smg-detectron2
+	url = git@bitbucket.org:sgolodetz/smg-detectron2.git
