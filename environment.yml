@@ -11,20 +11,31 @@ dependencies:
   - wheel=0.35.1=pyhd3eb1b0_0
   - wincertstore=0.2=py37_0
   - pip:
+    - absl-py==0.11.0
     - argon2-cffi==20.1.0
     - async-generator==1.10
     - attrs==20.3.0
     - av==8.0.2
     - backcall==0.2.0
     - bleach==3.2.1
+    - cachetools==4.2.1
     - cffi==1.14.4
+    - chardet==4.0.0
+    - cloudpickle==1.6.0
     - colorama==0.4.4
     - cycler==0.10.0
     - dataclasses==0.6
     - decorator==4.4.2
     - defusedxml==0.6.0
+    - func-timeout==4.3.5
     - future==0.18.2
+    - fvcore==0.1.2.post20210128
+    - google-auth==1.24.0
+    - google-auth-oauthlib==0.4.2
+    - grpcio==1.35.0
+    - idna==2.10
     - importlib-metadata==3.1.0
+    - iopath==0.1.3
     - ipykernel==5.3.4
     - ipython==7.19.0
     - ipython-genutils==0.2.0
@@ -37,6 +48,7 @@ dependencies:
     - jupyterlab-pygments==0.1.2
     - kiwisolver==1.3.1
     - llvmlite==0.34.0
+    - markdown==3.3.3
     - markupsafe==1.1.1
     - matplotlib==3.3.3
     - mistune==0.8.4
@@ -47,6 +59,7 @@ dependencies:
     - notebook==6.1.5
     - numba==0.51.2
     - numpy==1.19.4
+    - oauthlib==3.1.0
     - open3d==0.11.2
     - opencv-contrib-python==3.4.2.16
     - openni==2.3.0
@@ -55,9 +68,15 @@ dependencies:
     - parso==0.7.1
     - pickleshare==0.7.5
     - pillow==8.0.1
+    - portalocker==2.1.0
     - prometheus-client==0.9.0
     - prompt-toolkit==3.0.8
+    - protobuf==3.14.0
+    - pyasn1==0.4.8
+    - pyasn1-modules==0.2.8
+    - pycocotools==2.0.2
     - pycparser==2.20
+    - pydot==1.4.1
     - pygame==2.0.0
     - pygments==2.7.2
     - pyopengl==3.1.5
@@ -67,21 +86,33 @@ dependencies:
     - pytypes==1.0b5.post53
     - pywin32==300
     - pywinpty==0.5.7
+    - pyyaml==5.4.1
     - pyzmq==20.0.0
+    - requests==2.25.1
+    - requests-oauthlib==1.3.0
+    - rsa==4.7
     - scipy==1.5.4
     - send2trash==1.5.0
     - six==1.15.0
+    - tabulate==0.8.7
+    - tensorboard==2.4.1
+    - tensorboard-plugin-wit==1.8.0
+    - termcolor==1.1.0
     - terminado==0.9.1
     - testpath==0.4.4
     - torch==1.7.0+cu101
     - torchaudio==0.7.0
     - torchvision==0.8.1+cu101
     - tornado==6.1
+    - tqdm==4.56.0
     - traitlets==5.0.5
     - typing-extensions==3.7.4.3
+    - urllib3==1.26.3
     - vg==1.9.0
     - wcwidth==0.2.5
     - webencodings==0.5.1
+    - werkzeug==1.0.1
     - widgetsnbextension==3.5.1
+    - yacs==0.1.8
     - zipp==3.4.0
 prefix: C:\ProgramData\Anaconda3\envs\smglib
