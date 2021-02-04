@@ -46,3 +46,6 @@
 [submodule "smg-detectron2"]
 	path = smg-detectron2
 	url = git@bitbucket.org:sgolodetz/smg-detectron2.git
+[submodule "smg-pyopenpose"]
+	path = smg-pyopenpose
+	url = git@bitbucket.org:sgolodetz/smg-pyopenpose.git
