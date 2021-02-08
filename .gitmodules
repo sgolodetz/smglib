@@ -49,3 +49,6 @@
 [submodule "smg-pyopenpose"]
 	path = smg-pyopenpose
 	url = git@bitbucket.org:sgolodetz/smg-pyopenpose.git
+[submodule "smg-rescueflight"]
+	path = smg-rescueflight
+	url = git@bitbucket.org:sgolodetz/smg-rescueflight
