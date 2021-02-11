@@ -52,3 +52,6 @@
 [submodule "smg-rescueflight"]
 	path = smg-rescueflight
 	url = git@bitbucket.org:sgolodetz/smg-rescueflight
+[submodule "smg-lcrnet"]
+	path = smg-lcrnet
+	url = git@bitbucket.org:sgolodetz/smg-lcrnet.git
