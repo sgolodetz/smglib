@@ -29,6 +29,7 @@ dependencies:
     - defusedxml==0.6.0
     - func-timeout==4.3.5
     - future==0.18.2
+    - future-annotations==1.0.0
     - fvcore==0.1.2.post20210128
     - google-auth==1.24.0
     - google-auth-oauthlib==0.4.2
@@ -61,7 +62,7 @@ dependencies:
     - numba==0.51.2
     - numpy==1.19.4
     - oauthlib==3.1.0
-    - open3d==0.11.2
+    - open3d==0.12.0
     - opencv-contrib-python==3.4.2.16
     - openni==2.3.0
     - packaging==20.4
@@ -104,6 +105,7 @@ dependencies:
     - terminado==0.9.1
     - testpath==0.4.4
     - threadpoolctl==2.1.0
+    - tokenize-rt==4.1.0
     - torch==1.7.0+cu101
     - torchaudio==0.7.0
     - torchvision==0.8.1+cu101
