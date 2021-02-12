@@ -55,3 +55,6 @@
 [submodule "smg-lcrnet"]
 	path = smg-lcrnet
 	url = git@bitbucket.org:sgolodetz/smg-lcrnet.git
+[submodule "smg-skeletons"]
+	path = smg-skeletons
+	url = git@bitbucket.org:sgolodetz/smg-skeletons.git
