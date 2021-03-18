@@ -61,3 +61,6 @@
 [submodule "smg-comms"]
 	path = smg-comms
 	url = git@bitbucket.org:sgolodetz/smg-comms.git
+[submodule "smg-pyleap"]
+	path = smg-pyleap
+	url = git@bitbucket.org:sgolodetz/smg-pyleap.git
