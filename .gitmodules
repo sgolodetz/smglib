@@ -64,3 +64,6 @@
 [submodule "smg-pyleap"]
 	path = smg-pyleap
 	url = git@bitbucket.org:sgolodetz/smg-pyleap.git
+[submodule "smg-navigation"]
+	path = smg-navigation
+	url = git@bitbucket.org:sgolodetz/smg-navigation.git
