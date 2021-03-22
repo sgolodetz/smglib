@@ -67,3 +67,6 @@
 [submodule "smg-navigation"]
 	path = smg-navigation
 	url = git@bitbucket.org:sgolodetz/smg-navigation.git
+[submodule "smg-robotdepot"]
+	path = smg-robotdepot
+	url = git@bitbucket.org:sgolodetz/smg-robotdepot.git
