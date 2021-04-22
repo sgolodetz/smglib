@@ -73,3 +73,6 @@
 [submodule "smg-joysticks"]
 	path = smg-joysticks
 	url = git@bitbucket.org:sgolodetz/smg-joysticks.git
+[submodule "smg-pyxnect"]
+	path = smg-pyxnect
+	url = git@bitbucket.org:sgolodetz/smg-pyxnect.git
