@@ -76,3 +76,6 @@
 [submodule "smg-pyxnect"]
 	path = smg-pyxnect
 	url = git@bitbucket.org:sgolodetz/smg-pyxnect.git
+[submodule "smg-vicon"]
+	path = smg-vicon
+	url = git@bitbucket.org:sgolodetz/smg-vicon.git
