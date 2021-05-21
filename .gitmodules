@@ -79,3 +79,6 @@
 [submodule "smg-vicon"]
 	path = smg-vicon
 	url = git@bitbucket.org:sgolodetz/smg-vicon.git
+[submodule "smg-rotorsim"]
+	path = smg-rotorsim
+	url = git@bitbucket.org:sgolodetz/smg-rotorsim.git
