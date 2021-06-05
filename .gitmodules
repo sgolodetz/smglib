@@ -85,3 +85,6 @@
 [submodule "smg-meshing"]
 	path = smg-meshing
 	url = git@bitbucket.org:sgolodetz/smg-meshing.git
+[submodule "smg-smplx"]
+	path = smg-smplx
+	url = git@bitbucket.org:sgolodetz/smg-smplx.git
