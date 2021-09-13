@@ -88,3 +88,6 @@
 [submodule "smg-smplx"]
 	path = smg-smplx
 	url = git@bitbucket.org:sgolodetz/smg-smplx.git
+[submodule "smg-dvmvs"]
+	path = smg-dvmvs
+	url = git@bitbucket.org:sgolodetz/smg-dvmvs.git
