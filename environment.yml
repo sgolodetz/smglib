@@ -70,6 +70,7 @@ dependencies:
     - nbconvert==6.0.7
     - nbformat==5.0.8
     - nest-asyncio==1.4.3
+    - netifaces==0.11.0
     - notebook==6.1.5
     - numba==0.51.2
     - numpy==1.19.4
@@ -78,6 +79,7 @@ dependencies:
     - opencv-contrib-python==3.4.2.16
     - openni==2.3.0
     - packaging==20.4
+    - pandas==1.1.5
     - pandocfilters==1.4.3
     - parso==0.7.1
     - path==15.0.0
@@ -143,6 +145,7 @@ dependencies:
     - werkzeug==1.0.1
     - wheel==0.37.0
     - widgetsnbextension==3.5.1
+    - xarray==0.19.0
     - yacs==0.1.8
     - zipp==3.4.0
 prefix: C:\ProgramData\Anaconda3\envs\smglib
