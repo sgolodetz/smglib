@@ -91,3 +91,6 @@
 [submodule "smg-dvmvs"]
 	path = smg-dvmvs
 	url = git@bitbucket.org:sgolodetz/smg-dvmvs.git
+[submodule "smg-rotorcontrol"]
+	path = smg-rotorcontrol
+	url = git@bitbucket.org:sgolodetz/smg-rotorcontrol.git
