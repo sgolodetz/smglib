@@ -11,11 +11,13 @@ dependencies:
   - wincertstore=0.2=py37_0
   - pip:
     - absl-py==0.11.0
+    - amazon-transcribe==0.6.0
     - anyio==3.3.0
     - argon2-cffi==20.1.0
     - async-generator==1.10
     - attrs==20.3.0
     - av==8.0.2
+    - awscrt==0.13.11
     - babel==2.9.1
     - backcall==0.2.0
     - bleach==3.2.1
@@ -119,6 +121,7 @@ dependencies:
     - sklearn==0.0
     - smplx==0.1.28
     - sniffio==1.2.0
+    - sounddevice==0.4.4
     - tabulate==0.8.7
     - tensorboard==2.4.1
     - tensorboard-plugin-wit==1.8.0
