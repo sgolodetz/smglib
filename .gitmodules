@@ -94,3 +94,6 @@
 [submodule "smg-rotorcontrol"]
 	path = smg-rotorcontrol
 	url = git@bitbucket.org:sgolodetz/smg-rotorcontrol.git
+[submodule "smg-mediapipe"]
+	path = smg-mediapipe
+	url = git@bitbucket.org:sgolodetz/smg-mediapipe.git
