@@ -4,7 +4,9 @@ This is the open-source Python framework associated with our drone research in t
 
 ### Development Installation
 
-Note: Installing the framework currently takes a bit more effort than we would prefer (sorry!). We plan to address this gradually over time.
+Note #1: Installing the framework currently takes a bit more effort than we would prefer (sorry!). We plan to address this in future.
+
+Note #2: The installation instructions are currently for Windows, although there's no inherent reason why the framework can't work on Linux or Mac OS X. Again, we plan to address this in future.
 
 1. Choose a root directory, hereafter (and in the submodule-level README files) referred to as `<root>`.
 
@@ -28,10 +30,25 @@ conda create -n smglib python==3.7
 conda activate smglib
 ```
 
-5. Follow the installation instructions specified in the submodule-level README files. Since some of the submodules depend on other submodules, the order in which the submodules are installed matters. One suitable installation order is:
+6. Follow the installation instructions specified in the submodule-level README files. Since some of the submodules depend on other submodules, the order in which the submodules are installed matters. One suitable installation order is:
 
 - [smg-imagesources](https://github.com/sgolodetz/smg-imagesources/blob/master/README.md)
-- TODO
+- [smg-joysticks](https://github.com/sgolodetz/smg-joysticks/blob/master/README.md)
+- [smg-rigging](https://github.com/sgolodetz/smg-rigging/blob/master/README.md)
+- [smg-utility](https://github.com/sgolodetz/smg-utility/blob/master/README.md)
+---
+- [smg-open3d](https://github.com/sgolodetz/smg-open3d/blob/master/README.md) -> smg-utility
+- [smg-opengl](https://github.com/sgolodetz/smg-opengl/blob/master/README.md) -> smg-rigging, smg-utility
+- [smg-openni](https://github.com/sgolodetz/smg-openni/blob/master/README.md) -> smg-imagesources [optional, only needed if using OpenNI cameras]
+- [smg-rotory](https://github.com/sgolodetz/smg-rotory/blob/master/README.md) -> smg-imagesources, smg-rigging
+---
+- [smg-mediapipe]((https://github.com/sgolodetz/smg-mediapipe/blob/master/README.md)) -> smg-open3d [optional, only needed if using the chair detector]
+- [smg-meshing](https://github.com/sgolodetz/smg-meshing/blob/master/README.md) -> smg-open3d, smg-opengl
+- [smg-skeletons](https://github.com/sgolodetz/smg-skeletons/blob/master/README.md) -> smg-opengl
+---
+- [smg-comms](https://github.com/sgolodetz/smg-comms/blob/master/README.md) -> smg-rigging, smg-skeletons, smg-utility
+
+TODO
 
 ### Publications
 
