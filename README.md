@@ -1,6 +1,6 @@
 # smglib
 
-This is the open-source Python framework associated with our drone research in the Cyber-Physical Systems group at the University of Oxford.
+This is the open-source Python framework associated with our drone research in the [Cyber-Physical Systems](https://www.cs.ox.ac.uk/activities/cyberphysical/) group at the University of Oxford.
 
 ### Development Installation
 
@@ -14,9 +14,23 @@ Note: Installing the framework currently takes a bit more effort than we would p
 git clone --recursive git@github.com:sgolodetz/smglib.git <root>
 ```
 
-3. Follow the installation instructions specified in the submodule-level README files. Since some of the submodules depend on other submodules, the order in which the submodules are installed matters. One suitable installation order is:
+3. Install [Anaconda](https://www.anaconda.com).
 
-- smg-imagesources
+4. Create a Conda environment for the framework, e.g.
+
+```
+conda create -n smglib python==3.7
+```
+
+5. Activate the Conda environment, e.g.
+
+```
+conda activate smglib
+```
+
+5. Follow the installation instructions specified in the submodule-level README files. Since some of the submodules depend on other submodules, the order in which the submodules are installed matters. One suitable installation order is:
+
+- [smg-imagesources](https://github.com/sgolodetz/smg-imagesources/blob/master/README.md)
 - TODO
 
 ### Publications
