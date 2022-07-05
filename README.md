@@ -34,6 +34,7 @@ conda activate smglib
 
 - [smg-imagesources](https://github.com/sgolodetz/smg-imagesources/blob/master/README.md)
 - [smg-joysticks](https://github.com/sgolodetz/smg-joysticks/blob/master/README.md)
+- [smg-pyopencv](https://github.com/sgolodetz/smg-pyopencv/blob/master/README.md)
 - [smg-rigging](https://github.com/sgolodetz/smg-rigging/blob/master/README.md)
 - [smg-utility](https://github.com/sgolodetz/smg-utility/blob/master/README.md)
 ---
