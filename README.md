@@ -41,6 +41,7 @@ conda activate smglib
 - [smg-open3d](https://github.com/sgolodetz/smg-open3d/blob/master/README.md) -> smg-utility
 - [smg-opengl](https://github.com/sgolodetz/smg-opengl/blob/master/README.md) -> smg-rigging, smg-utility
 - [smg-openni](https://github.com/sgolodetz/smg-openni/blob/master/README.md) -> smg-imagesources [optional, only needed if using OpenNI cameras]
+- [smg-pyorbslam2](https://github.com/sgolodetz/smg-pyorbslam2/blob/master/README.md) -> smg-pyopencv
 - [smg-rotory](https://github.com/sgolodetz/smg-rotory/blob/master/README.md) -> smg-imagesources, smg-rigging
 ---
 - [smg-mediapipe](https://github.com/sgolodetz/smg-mediapipe/blob/master/README.md) -> smg-open3d [optional, only needed if using the chair detector]
