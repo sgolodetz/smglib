@@ -32,6 +32,7 @@ conda activate smglib
 
 6. Follow the installation instructions specified in the submodule-level README files. Since some of the submodules depend on other submodules, the order in which the submodules are installed matters. One suitable installation order is:
 
+- [smg-dvmvs](https://github.com/sgolodetz/smg-dvmvs/blob/master/README.md)
 - [smg-imagesources](https://github.com/sgolodetz/smg-imagesources/blob/master/README.md)
 - [smg-joysticks](https://github.com/sgolodetz/smg-joysticks/blob/master/README.md)
 - [smg-pyopencv](https://github.com/sgolodetz/smg-pyopencv/blob/master/README.md)
