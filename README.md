@@ -47,6 +47,7 @@ conda activate smglib
 ---
 - [smg-mediapipe](https://github.com/sgolodetz/smg-mediapipe/blob/master/README.md) -> smg-open3d [optional, only needed if using the chair detector]
 - [smg-meshing](https://github.com/sgolodetz/smg-meshing/blob/master/README.md) -> smg-open3d, smg-opengl
+- [smg-pyoctomap](https://github.com/sgolodetz/smg-pyoctomap/blob/master/README.md) -> smg-opengl, smg-rigging
 - [smg-skeletons](https://github.com/sgolodetz/smg-skeletons/blob/master/README.md) -> smg-opengl
 ---
 - [smg-comms](https://github.com/sgolodetz/smg-comms/blob/master/README.md) -> smg-rigging, smg-skeletons, smg-utility
