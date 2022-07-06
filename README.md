@@ -49,8 +49,7 @@ conda activate smglib
 - [smg-skeletons](https://github.com/sgolodetz/smg-skeletons/blob/master/README.md) -> smg-opengl
 ---
 - [smg-comms](https://github.com/sgolodetz/smg-comms/blob/master/README.md) -> smg-rigging, smg-skeletons, smg-utility
-
-TODO
+- [smx-smplx](https://github.com/sgolodetz/smg-smplx/blob/master/README.md) -> smg-skeletons
 
 ### Publications
 
