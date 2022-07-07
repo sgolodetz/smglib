@@ -59,6 +59,8 @@ conda activate smglib
 - [smx-smplx](https://github.com/sgolodetz/smg-smplx/blob/master/README.md) -> smg-skeletons
 ---
 - [smg-rotorcontrol](https://github.com/sgolodetz/smg-rotorcontrol/blob/master/README.md) -> smg-joysticks, smg-navigation, smg-rotory
+---
+- [smg-rotorsim](https://github.com/sgolodetz/smg-rotorcontrol/blob/master/README.md) -> smg-meshing, smg-rotorcontrol
 
 ### Publications
 
