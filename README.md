@@ -37,6 +37,7 @@ conda activate smglib
 - [smg-joysticks](https://github.com/sgolodetz/smg-joysticks/blob/master/README.md)
 - [smg-pyopencv](https://github.com/sgolodetz/smg-pyopencv/blob/master/README.md)
 - [smg-rigging](https://github.com/sgolodetz/smg-rigging/blob/master/README.md)
+- [smg-robotdepot](https://github.com/sgolodetz/smg-rigging/blob/master/README.md) [optional, only needed if using a DJI Robomaster S1]
 - [smg-utility](https://github.com/sgolodetz/smg-utility/blob/master/README.md)
 ---
 - [smg-open3d](https://github.com/sgolodetz/smg-open3d/blob/master/README.md) -> smg-utility
@@ -51,6 +52,7 @@ conda activate smglib
 - [smg-skeletons](https://github.com/sgolodetz/smg-skeletons/blob/master/README.md) -> smg-opengl
 ---
 - [smg-comms](https://github.com/sgolodetz/smg-comms/blob/master/README.md) -> smg-rigging, smg-skeletons, smg-utility
+- [smg-mapping](https://github.com/sgolodetz/smg-mapping/blob/master/README.md) -> smg-joysticks, smg-open3d, smg-pyoctomap, smg-skeletons
 - [smg-navigation](https://github.com/sgolodetz/smg-navigation/blob/master/README.md) -> smg-pyoctomap
 - [smx-smplx](https://github.com/sgolodetz/smg-smplx/blob/master/README.md) -> smg-skeletons
 
