@@ -8,29 +8,23 @@ Note #1: Installing the framework currently takes a bit more effort than we woul
 
 Note #2: The installation instructions are currently for Windows, although there's no inherent reason why the framework can't work on Linux or Mac OS X. Again, we plan to address this in future.
 
-1. Choose a root directory, hereafter (and in the submodule-level README files) referred to as `<root>`.
+1. Install [Anaconda](https://www.anaconda.com).
 
-2. Clone the `smglib` repository into `<root>`, e.g.
+2. Install [Visual Studio](https://visualstudio.microsoft.com/downloads). (We've tried our framework with both VS2017 and VS2019. It should work with other versions as well, but a few tweaks may be required.)
+
+3. Choose a root directory, hereafter (and in the submodule-level README files) referred to as `<root>`.
+
+4. Clone the `smglib` repository into `<root>`, e.g.
 
 ```
 git clone --recursive git@github.com:sgolodetz/smglib.git <root>
 ```
 
-3. Install [Anaconda](https://www.anaconda.com).
+5. Create a Conda environment for the framework, e.g. `conda create -n smglib python==3.7`.
 
-4. Create a Conda environment for the framework, e.g.
+6. Activate the Conda environment, e.g. `conda activate smglib`.
 
-```
-conda create -n smglib python==3.7
-```
-
-5. Activate the Conda environment, e.g.
-
-```
-conda activate smglib
-```
-
-6. Follow the installation instructions specified in the submodule-level README files. Since some of the submodules depend on other submodules, the order in which the submodules are installed matters. One suitable installation order is:
+7. Follow the installation instructions specified in the submodule-level README files. Since some of the submodules depend on other submodules, the order in which the submodules are installed matters. One suitable installation order is:
 
 - [smg-dvmvs](https://github.com/sgolodetz/smg-dvmvs/blob/master/README.md)
 - [smg-imagesources](https://github.com/sgolodetz/smg-imagesources/blob/master/README.md)
@@ -57,7 +51,7 @@ conda activate smglib
 - [smg-mapping](https://github.com/sgolodetz/smg-mapping/blob/master/README.md) -> smg-joysticks, smg-open3d, smg-pyoctomap, smg-skeletons
 - [smg-navigation](https://github.com/sgolodetz/smg-navigation/blob/master/README.md) -> smg-pyoctomap
 - [smx-smplx](https://github.com/sgolodetz/smg-smplx/blob/master/README.md) -> smg-skeletons
-- [smg-vicon](https://github.com/sgolodetz/smg-vicon/blob/master/README.md) -> smg-vicon
+- [smg-vicon](https://github.com/sgolodetz/smg-vicon/blob/master/README.md) -> smg-vicon [optional, only needed if using a Vicon system or data saved from one]
 ---
 - [smg-rotorcontrol](https://github.com/sgolodetz/smg-rotorcontrol/blob/master/README.md) -> smg-joysticks, smg-navigation, smg-rotory
 ---
