@@ -57,6 +57,7 @@ conda activate smglib
 - [smg-mapping](https://github.com/sgolodetz/smg-mapping/blob/master/README.md) -> smg-joysticks, smg-open3d, smg-pyoctomap, smg-skeletons
 - [smg-navigation](https://github.com/sgolodetz/smg-navigation/blob/master/README.md) -> smg-pyoctomap
 - [smx-smplx](https://github.com/sgolodetz/smg-smplx/blob/master/README.md) -> smg-skeletons
+- [smg-vicon](https://github.com/sgolodetz/smg-vicon/blob/master/README.md) -> smg-vicon
 ---
 - [smg-rotorcontrol](https://github.com/sgolodetz/smg-rotorcontrol/blob/master/README.md) -> smg-joysticks, smg-navigation, smg-rotory
 ---
