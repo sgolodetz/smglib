@@ -35,6 +35,7 @@ conda activate smglib
 - [smg-dvmvs](https://github.com/sgolodetz/smg-dvmvs/blob/master/README.md)
 - [smg-imagesources](https://github.com/sgolodetz/smg-imagesources/blob/master/README.md)
 - [smg-joysticks](https://github.com/sgolodetz/smg-joysticks/blob/master/README.md)
+- [smg-mvdepthnet](https://github.com/sgolodetz/smg-mvdepthnet/blob/master/README.md)
 - [smg-pyopencv](https://github.com/sgolodetz/smg-pyopencv/blob/master/README.md)
 - [smg-rigging](https://github.com/sgolodetz/smg-rigging/blob/master/README.md)
 - [smg-robotdepot](https://github.com/sgolodetz/smg-rigging/blob/master/README.md) [optional, only needed if using a DJI Robomaster S1]
@@ -44,6 +45,7 @@ conda activate smglib
 - [smg-opengl](https://github.com/sgolodetz/smg-opengl/blob/master/README.md) -> smg-rigging, smg-utility
 - [smg-openni](https://github.com/sgolodetz/smg-openni/blob/master/README.md) -> smg-imagesources [optional, only needed if using OpenNI cameras]
 - [smg-pyorbslam2](https://github.com/sgolodetz/smg-pyorbslam2/blob/master/README.md) -> smg-pyopencv
+- [smg-relocalisation](https://github.com/sgolodetz/smg-relocalisation/blob/master/README.md) -> smg-rigging
 - [smg-rotory](https://github.com/sgolodetz/smg-rotory/blob/master/README.md) -> smg-imagesources, smg-rigging
 ---
 - [smg-mediapipe](https://github.com/sgolodetz/smg-mediapipe/blob/master/README.md) -> smg-open3d [optional, only needed if using the chair detector]
