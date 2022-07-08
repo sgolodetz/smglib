@@ -29,13 +29,13 @@ git clone --recursive git@github.com:sgolodetz/smglib.git <root>
 - [smg-dvmvs](https://github.com/sgolodetz/smg-dvmvs/blob/master/README.md)
 - [smg-imagesources](https://github.com/sgolodetz/smg-imagesources/blob/master/README.md)
 - [smg-joysticks](https://github.com/sgolodetz/smg-joysticks/blob/master/README.md)
-- [smg-mvdepthnet](https://github.com/sgolodetz/smg-mvdepthnet/blob/master/README.md)
 - [smg-pyopencv](https://github.com/sgolodetz/smg-pyopencv/blob/master/README.md)
 - [smg-rigging](https://github.com/sgolodetz/smg-rigging/blob/master/README.md)
 - [smg-robotdepot](https://github.com/sgolodetz/smg-rigging/blob/master/README.md) [optional, only needed if using a DJI Robomaster S1]
 - [smg-utility](https://github.com/sgolodetz/smg-utility/blob/master/README.md)
 ---
 - [smg-detectron2](https://github.com/sgolodetz/smg-detectron2/blob/master/README.md) -> smg-utility
+- [smg-mvdepthnet](https://github.com/sgolodetz/smg-mvdepthnet/blob/master/README.md) -> smg-rigging
 - [smg-open3d](https://github.com/sgolodetz/smg-open3d/blob/master/README.md) -> smg-utility
 - [smg-opengl](https://github.com/sgolodetz/smg-opengl/blob/master/README.md) -> smg-rigging, smg-utility
 - [smg-openni](https://github.com/sgolodetz/smg-openni/blob/master/README.md) -> smg-imagesources [optional, only needed if using OpenNI cameras]
