@@ -26,7 +26,6 @@ git clone --recursive git@github.com:sgolodetz/smglib.git <root>
 
 7. Follow the installation instructions specified in the submodule-level README files. Since some of the submodules depend on other submodules, the order in which the submodules are installed matters. One suitable installation order is:
 
-- [smg-detectron2](https://github.com/sgolodetz/smg-detectron2/blob/master/README.md)
 - [smg-dvmvs](https://github.com/sgolodetz/smg-dvmvs/blob/master/README.md)
 - [smg-imagesources](https://github.com/sgolodetz/smg-imagesources/blob/master/README.md)
 - [smg-joysticks](https://github.com/sgolodetz/smg-joysticks/blob/master/README.md)
@@ -36,6 +35,7 @@ git clone --recursive git@github.com:sgolodetz/smglib.git <root>
 - [smg-robotdepot](https://github.com/sgolodetz/smg-rigging/blob/master/README.md) [optional, only needed if using a DJI Robomaster S1]
 - [smg-utility](https://github.com/sgolodetz/smg-utility/blob/master/README.md)
 ---
+- [smg-detectron2](https://github.com/sgolodetz/smg-detectron2/blob/master/README.md) -> smg-utility
 - [smg-open3d](https://github.com/sgolodetz/smg-open3d/blob/master/README.md) -> smg-utility
 - [smg-opengl](https://github.com/sgolodetz/smg-opengl/blob/master/README.md) -> smg-rigging, smg-utility
 - [smg-openni](https://github.com/sgolodetz/smg-openni/blob/master/README.md) -> smg-imagesources [optional, only needed if using OpenNI cameras]
