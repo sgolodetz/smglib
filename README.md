@@ -58,6 +58,8 @@ git clone --recursive git@github.com:sgolodetz/smglib.git <root>
 - [smg-rotorcontrol](https://github.com/sgolodetz/smg-rotorcontrol/blob/master/README.md) -> smg-joysticks, smg-navigation, smg-rotory
 ---
 - [smg-rotorsim](https://github.com/sgolodetz/smg-rotorcontrol/blob/master/README.md) -> smg-meshing, smg-rotorcontrol
+---
+- [smg-lcrnet](https://github.com/sgolodetz/smg-lcrnet/blob/master/README.md) -> smg-comms
 
 ### Publications
 
