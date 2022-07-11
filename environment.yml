@@ -2,7 +2,8 @@ name: smglib
 channels:
   - defaults
 dependencies:
-  - certifi=2020.11.8=py37haa95532_0
+  - certifi=2021.5.30=py37haa95532_0
+  - cudatoolkit=11.3.1=h59b6b97_2
   - pip=20.2.4=py37haa95532_0
   - python=3.7.0=hea74fb7_0
   - setuptools=50.3.1=py37haa95532_1
@@ -11,40 +12,52 @@ dependencies:
   - wincertstore=0.2=py37_0
   - pip:
     - absl-py==0.11.0
-    - anyio==3.3.0
+    - amazon-transcribe==0.6.0
+    - antlr4-python3-runtime==4.8
+    - anyio==3.3.2
+    - appdirs==1.4.4
     - argon2-cffi==20.1.0
     - async-generator==1.10
     - attrs==20.3.0
     - av==8.0.2
+    - awscrt==0.13.11
     - babel==2.9.1
     - backcall==0.2.0
+    - black==21.4b2
     - bleach==3.2.1
     - cachetools==4.2.1
     - cffi==1.14.4
     - chardet==4.0.0
     - chumpy==0.70
+    - click==8.0.3
     - cloudpickle==1.6.0
     - colorama==0.4.4
     - cycler==0.10.0
+    - cython==0.29.24
     - dataclasses==0.6
     - decorator==4.4.2
     - defusedxml==0.6.0
     - deprecation==2.1.0
+    - dsacstar==0.0.0
+    - entrypoints==0.3
     - enum34==1.1.10
     - func-timeout==4.3.5
     - future==0.18.2
     - future-annotations==1.0.0
-    - fvcore==0.1.2.post20210128
+    - fvcore==0.1.5.post20211023
     - google-auth==1.24.0
     - google-auth-oauthlib==0.4.2
     - grpcio==1.35.0
+    - hydra-core==1.1.1
     - idna==2.10
+    - imageio==2.19.2
     - importlib-metadata==3.1.0
-    - iopath==0.1.3
+    - importlib-resources==5.4.0
+    - iopath==0.1.9
     - ipykernel==5.3.4
     - ipython==7.19.0
     - ipython-genutils==0.2.0
-    - ipywidgets==7.6.3
+    - ipywidgets==7.6.5
     - jedi==0.17.2
     - jinja2==2.11.2
     - joblib==1.0.0
@@ -52,29 +65,33 @@ dependencies:
     - jsonschema==3.2.0
     - jupyter-client==6.1.7
     - jupyter-core==4.7.0
-    - jupyter-packaging==0.10.4
-    - jupyter-server==1.10.2
-    - jupyterlab==3.1.7
+    - jupyter-packaging==0.10.6
+    - jupyter-server==1.11.1
+    - jupyterlab==3.1.17
     - jupyterlab-pygments==0.1.2
-    - jupyterlab-server==2.7.1
-    - jupyterlab-widgets==1.0.0
+    - jupyterlab-server==2.8.2
+    - jupyterlab-widgets==1.0.2
     - kiwisolver==1.3.1
-    - kornia==0.5.10
-    - llvmlite==0.34.0
+    - kornia==0.5.11
+    - llvmlite==0.37.0
     - markdown==3.3.3
     - markupsafe==1.1.1
     - matplotlib==3.3.3
+    - mediapipe==0.8.10
     - mistune==0.8.4
-    - nbclassic==0.3.1
+    - mypy-extensions==0.4.3
+    - nbclassic==0.3.2
     - nbclient==0.5.1
     - nbconvert==6.0.7
     - nbformat==5.0.8
     - nest-asyncio==1.4.3
     - netifaces==0.11.0
+    - networkx==2.6.3
     - notebook==6.1.5
-    - numba==0.51.2
+    - numba==0.54.0
     - numpy==1.19.4
     - oauthlib==3.1.0
+    - omegaconf==2.1.1
     - open3d==0.13.0
     - opencv-contrib-python==3.4.2.16
     - openni==2.3.0
@@ -83,14 +100,16 @@ dependencies:
     - pandocfilters==1.4.3
     - parso==0.7.1
     - path==15.0.0
+    - pathspec==0.9.0
     - pickleshare==0.7.5
-    - pillow==8.0.1
+    - pillow==9.1.1
     - portalocker==2.1.0
     - prometheus-client==0.9.0
     - prompt-toolkit==3.0.8
     - protobuf==3.14.0
     - pyasn1==0.4.8
     - pyasn1-modules==0.2.8
+    - pybind11==2.8.0
     - pycocotools==2.0.2
     - pycparser==2.20
     - pydot==1.4.1
@@ -100,18 +119,21 @@ dependencies:
     - pyparsing==2.4.7
     - pyrsistent==0.17.3
     - python-dateutil==2.8.1
+    - pytools==2021.2.8
     - pytorch3d==0.2.5
-    - pytypes==1.0b5.post53
-    - pytz==2021.1
+    - pytz==2021.3
+    - pywavelets==1.3.0
     - pywin32==300
     - pywinpty==0.5.7
     - pyyaml==5.4.1
     - pyzmq==20.0.0
+    - regex==2021.11.10
     - requests==2.25.1
     - requests-oauthlib==1.3.0
     - requests-unixsocket==0.2.0
     - rsa==4.7
     - scapy==2.4.4
+    - scikit-image==0.19.2
     - scikit-learn==0.24.1
     - scipy==1.5.4
     - send2trash==1.5.0
@@ -119,23 +141,27 @@ dependencies:
     - sklearn==0.0
     - smplx==0.1.28
     - sniffio==1.2.0
+    - sounddevice==0.4.4
     - tabulate==0.8.7
     - tensorboard==2.4.1
     - tensorboard-plugin-wit==1.8.0
+    - tensorboardx==2.1
     - termcolor==1.1.0
     - terminado==0.9.1
     - testpath==0.4.4
     - threadpoolctl==2.1.0
+    - tifffile==2021.11.2
     - tokenize-rt==4.1.0
+    - toml==0.10.2
     - tomlkit==0.7.2
-    - torch==1.7.0+cu101
-    - torchaudio==0.7.0
-    - torchvision==0.8.1+cu101
+    - torch==1.9.1+cu111
+    - torchaudio==0.9.1
+    - torchvision==0.10.1+cu111
     - tornado==6.1
     - tqdm==4.56.0
     - traitlets==5.0.5
+    - typed-ast==1.4.3
     - typing-extensions==3.7.4.3
-    - untangle==1.1.1
     - urllib3==1.26.3
     - vg==1.9.0
     - vicon-dssdk==1.11.0
