@@ -55,11 +55,12 @@ git clone --recursive git@github.com:sgolodetz/smglib.git <root>
 - [smx-smplx](https://github.com/sgolodetz/smg-smplx/blob/master/README.md) -> smg-skeletons
 - [smg-vicon](https://github.com/sgolodetz/smg-vicon/blob/master/README.md) -> smg-vicon [optional, only needed if using a Vicon system or data saved from one]
 ---
+- [smg-lcrnet](https://github.com/sgolodetz/smg-lcrnet/blob/master/README.md) -> smg-comms
 - [smg-rotorcontrol](https://github.com/sgolodetz/smg-rotorcontrol/blob/master/README.md) -> smg-joysticks, smg-navigation, smg-rotory
 ---
 - [smg-rotorsim](https://github.com/sgolodetz/smg-rotorcontrol/blob/master/README.md) -> smg-meshing, smg-rotorcontrol
 ---
-- [smg-lcrnet](https://github.com/sgolodetz/smg-lcrnet/blob/master/README.md) -> smg-comms
+- [smg-rescueflight](https://github.com/sgolodetz/smg-rescueflight/blob/master/README.md) -> everything!
 
 ### Publications
 
