@@ -1,5 +1,7 @@
 # smglib
 
+![teaser](teaser.png)
+
 This is the open-source Python framework and *Oxford Hybrid Mapping* dataset associated with our drone research in the [Cyber-Physical Systems](https://www.cs.ox.ac.uk/activities/cyberphysical/) group at the University of Oxford.
 
 ### Oxford Hybrid Mapping Dataset
