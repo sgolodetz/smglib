@@ -17,6 +17,28 @@ You are not permitted under this Licence to use this Software commercially. Use 
 (3)	use of the Software or any derivative of it for research with the final aim of developing non-software products for sale or license to a third party, or
 (4)	use of the Software to provide any service to an external organisation for which payment is received.
 
-If you are interested in using the Software commercially, please contact the Cyber-Physical Systems Group directly to negotiate a licence.
-
 Contact details are: niki.trigoni@cs.ox.ac.uk or andrew.markham@cs.ox.ac.uk.
+
+THIRD-PARTY CODE
+
+Some submodules of our framework make use of third-party code that is not the property of the authors of smglib. Where relevant, we refer to the relevant licences in those submodules' LICENCE files.
+
+These dependencies include (but may not be limited to):
+
+* DeepVideoMVS - MIT
+* Detectron.pytorch - MIT
+* Detectron2 - Apache
+* LCR-Net - GPL
+* Leap SDK - custom
+* MediaPipe - Apache
+* MVDepthNet - GPLv3
+* Octomap - New BSD
+* Open3D - MIT
+* OpenPose - custom non-commercial
+* ORB-SLAM2 and ORB-SLAM3 - GPLv3
+* REMODE - GPLv3
+* SMPL-X - custom non-commercial
+* XNect - contact the authors
+* Vicon DataStream SDK - custom (see the SDK itself)
+
+Any use made of submodules of our framework that rely on these dependencies must also comply with the dependencies' own licence terms.
