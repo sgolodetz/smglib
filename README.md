@@ -12,21 +12,21 @@ Note #1: Installing the framework currently takes a bit more effort than we woul
 
 Note #2: The installation instructions are currently for Windows, although there's no inherent reason why the framework can't work on Linux or Mac OS X. Again, we plan to address this in future.
 
-1. Install [Anaconda](https://www.anaconda.com).
+1. Install [Git for Windows](https://gitforwindows.org). (You'll need it to run some of the `.sh` scripts.)
 
-2. Install [Visual Studio](https://visualstudio.microsoft.com/downloads). (We've tried our framework with both VS2017 and VS2019. It should work with other versions as well, but a few tweaks may be required.)
+2. Install [Anaconda](https://www.anaconda.com).
 
-3. Choose a root directory, hereafter (and in the submodule-level README files) referred to as `<root>`.
+3. Install [Visual Studio](https://visualstudio.microsoft.com/downloads). (We've tried our framework with both VS2017 and VS2019. It should work with other versions as well, but a few tweaks may be required.)
 
-4. Clone the `smglib` repository into `<root>`, e.g.
+4. Choose a root directory, hereafter (and in the submodule-level README files) referred to as `<root>`.
+
+5. Clone the `smglib` repository into `<root>`, e.g.
 
 ```
 git clone --recursive git@github.com:sgolodetz/smglib.git <root>
 ```
 
-5. Create a Conda environment for the framework, e.g. `conda create -n smglib python==3.7`.
-
-6. Activate the Conda environment, e.g. `conda activate smglib`.
+6. Create a Conda environment for the framework, e.g. `conda create -n smglib python==3.7`.
 
 7. Follow the installation instructions specified in the submodule-level README files. Since some of the submodules depend on other submodules, the order in which the submodules are installed matters. One suitable installation order is:
 
