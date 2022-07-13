@@ -1,8 +1,12 @@
 # smglib
 
-This is the open-source Python framework associated with our drone research in the [Cyber-Physical Systems](https://www.cs.ox.ac.uk/activities/cyberphysical/) group at the University of Oxford.
+This is the open-source Python framework and *Oxford Hybrid Mapping* dataset associated with our drone research in the [Cyber-Physical Systems](https://www.cs.ox.ac.uk/activities/cyberphysical/) group at the University of Oxford.
 
-### Development Installation
+### Oxford Hybrid Mapping Dataset
+
+The dataset can be downloaded from [here](https://hybridmapping-ohm.s3.eu-west-1.amazonaws.com/ohm.tar.gz). It contains a single directory called `ohm` that has a subdirectory for each sequence in the dataset. By default, our framework expects it to be extracted into `C:/datasets` or `D:/datasets`, but if you want to put it somewhere else, just modify `determine_dataset_root_dir.sh` in `smg-rescueflight/smg/rescueflight/datasets` as desired. (We'll introduce an environment variable for it ultimately.)
+
+### Installation
 
 Note #1: Installing the framework currently takes a bit more effort than we would prefer (sorry!). We plan to address this in future.
 
