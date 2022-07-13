@@ -21,7 +21,7 @@ Contact details are: niki.trigoni@cs.ox.ac.uk or andrew.markham@cs.ox.ac.uk.
 
 THIRD-PARTY CODE
 
-Some submodules of our framework make use of third-party code that is not the property of the authors of smglib. Where relevant, we refer to the relevant licences in those submodules' LICENCE files.
+Some submodules of our framework make use of third-party code that is not the property of the authors of smglib. Where appropriate, we refer to the relevant licences in those submodules' LICENCE files.
 
 These dependencies include (but may not be limited to):
 
