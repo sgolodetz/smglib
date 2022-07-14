@@ -10,7 +10,7 @@ Our *smglib* framework encompasses many different scripts, and so we've put toge
 
 #### Reconstruct a GTA-IM scene (online)
 
-*Requires: Just the GTA-IM dataset*
+*Requires:* The GTA-IM dataset
 
 See `reconstruct_gta_im_scene_online.sh`. Example:
 
@@ -20,7 +20,7 @@ reconstruct_gta_im_scene_online.sh "FPS-5/2020-06-09-17-14-03" batch gt gt --max
 
 #### Reconstruct an OHM scene (online)
 
-*Requires: Just the OHM dataset*
+*Requires:* The OHM dataset
 
 See `reconstruct_ohm_scene_online.sh`. Example:
 
@@ -38,7 +38,7 @@ run_drone_simulator.py -t rts --scene_mesh=C:/smglib/smg-mapping/output-2020-06-
 
 #### Visualise an OHM sequence in 3D
 
-*Requires: Just the OHM dataset*
+*Requires:* The OHM dataset
 
 ```
 run_vicon_visualiser.py --persistence_folder=<input sequence dir> --persistence_mode=input
@@ -48,17 +48,23 @@ run_vicon_visualiser.py --persistence_folder=<input sequence dir> --persistence_
 
 #### Evaluate performance on GTA-IM
 
+*Requires:* The GTA-IM dataset
+
 ```
 evaluate_gta_im_sequences.sh gta_im_test.txt
 ```
 
 #### Evaluate 3D skeleton detection performance on OHM
 
+*Requires:* The OHM dataset
+
 ```
 evaluate_ohm_sequences.sh ohm_test.txt
 ```
 
 #### Evaluate performance on ScanNet
+
+*Requires:* The ScanNet dataset
 
 ```
 evaluate_scannet_sequences.sh scannetv2_test.txt
@@ -99,7 +105,7 @@ evaluate_scannet_sequences.sh scannetv2_test.txt
   spaintgui.exe -s <gt sequence dir>/frames -t Disk --relocaliserType=none --saveMeshOnExit
   ```
 
-  Rename the resulting PLY file to `mesh.ply`, and copy it into `<output sequence dir>/gt`.
+  Clean up the resulting PLY file using [MeshLab](https://www.meshlab.net), and save the result as `<output sequence dir>/gt/mesh.ply`.
 
 * **Step 5: Align the ground-truth mesh with the drone mesh, and evaluate the drone mesh**
 
