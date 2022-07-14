@@ -4,6 +4,7 @@ Our *smglib* framework encompasses many different scripts, and so we've put toge
 
 * In what follows, OHM denotes the *Oxford Hybrid Mapping* dataset.
 * You can find the scripts by name in PyCharm using `Navigate -> File...` (they're mostly in `smg-rescueflight`).
+* There are lots of different clients that you can use to feed sequences from different sources to the mapping servers. If you search for files of the form `*client.py` then you can see what's there.
 
 ### Common Tasks
 
@@ -27,6 +28,14 @@ See `reconstruct_ohm_scene_online.sh`. Example:
 reconstruct_ohm_scene_online.sh single1 batch maskrcnn lcrnet --max_depth=4.0 --octree_voxel_size=0.05
 ```
 
+#### Run the drone simulator
+
+Example (using a mesh and octree reconstructed from one of the GTA-IM 5Hz sequences):
+
+```
+run_drone_simulator.py -t rts --scene_mesh=C:/smglib/smg-mapping/output-2020-06-21-19-42-55/mesh.ply --scene_octree=C:/smglib/smg-mapping/output-2020-06-21-19-42-55/octree20cm.bt --planning_octree=C:/smglib/smg-mapping/output-2020-06-21-19-42-55/octree20cm.bt
+```
+
 #### Visualise an OHM sequence in 3D
 
 *Requires: Just the OHM dataset*
@@ -36,6 +45,24 @@ run_vicon_visualiser.py --persistence_folder=<input sequence dir> --persistence_
 ```
 
 ### Less Common Tasks
+
+#### Evaluate performance on GTA-IM
+
+```
+evaluate_gta_im_sequences.sh gta_im_test.txt
+```
+
+#### Evaluate 3D skeleton detection performance on OHM
+
+```
+evaluate_ohm_sequences.sh ohm_test.txt
+```
+
+#### Evaluate performance on ScanNet
+
+```
+evaluate_scannet_sequences.sh scannetv2_test.txt
+```
 
 #### Capture and evaluate a new sequence in the OHM format
 
