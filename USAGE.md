@@ -76,7 +76,7 @@ run_vicon_visualiser.py --persistence_folder=<input sequence dir> --persistence_
 
 * **Step 5: Align the ground-truth mesh with the drone mesh, and evaluate the drone mesh**
 
-  Align `<output sequence dir>/gt/mesh.ply` with `<output sequence dir>/reconstruction/world_mesh.ply` using [CloudCompare](https://www.danielgm.net/cc), and save the result as `<output sequence dir>/gt/world_mesh.ply`. A video showing how to do this can be found [here](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/living_room.html), as well as a script called `computeStats.py` that can be used to compute the evaluation metrics for the drone mesh as per the video. Since we use C2C distances rather than C2M ones, we include a tweaked version of this script called `compute_stats.py` that uses C2C distances and also runs under Python 3. (The copyright for this script clearly still belongs to Thomas Whelan, as per the notice in the file.)
+  Align `<output sequence dir>/gt/mesh.ply` with `<output sequence dir>/reconstruction/world_mesh.ply` using [CloudCompare](https://www.danielgm.net/cc), and save the result as `<output sequence dir>/gt/world_mesh.ply`. A video showing how to do this can be found [here](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/living_room.html), as well as a script called `computeStats.py` that can be used to compute the evaluation metrics for the drone mesh as per the video. Since we use C2C distances rather than C2M ones, we include a tweaked version of this script that uses C2C distances and also runs under Python 3. (The copyright for this script clearly still belongs to Thomas Whelan, as per the notice in the file.)
 
 * **Step 6: Make the Vicon-space versions of the meshes**
 
