@@ -1,71 +1,93 @@
 # Usage Examples
 
-Our *smglib* framework encompasses many different scripts, and so we've put together a number of usage examples to illustrate how different tasks can be achieved.
+Our *smglib* framework encompasses many different scripts, and so we've put together a number of usage examples to illustrate how different tasks can be achieved. We hope to add more examples gradually over time.
 
 * In what follows, OHM denotes the *Oxford Hybrid Mapping* dataset.
 * You can find the scripts by name in PyCharm using `Navigate -> File...` (they're mostly in `smg-rescueflight`).
 
-### Visualising an OHM sequence in 3D
+### Common Tasks
+
+#### Reconstruct a GTA-IM scene (online)
+
+*Requires: Just the GTA-IM dataset*
+
+See `reconstruct_gta_im_scene_online.sh`. Example:
+
+```
+reconstruct_gta_im_scene_online.sh "FPS-5/2020-06-09-17-14-03" batch gt gt --max_depth=10.0 --octree_voxel_size=0.2
+```
+
+#### Reconstruct an OHM scene (online)
+
+*Requires: Just the OHM dataset*
+
+See `reconstruct_ohm_scene_online.sh`. Example:
+
+```
+reconstruct_ohm_scene_online.sh single1 batch maskrcnn lcrnet --max_depth=4.0 --octree_voxel_size=0.05
+```
+
+#### Visualise an OHM sequence in 3D
+
+*Requires: Just the OHM dataset*
 
 ```
 run_vicon_visualiser.py --persistence_folder=<input sequence dir> --persistence_mode=input
 ```
 
-### Capturing and evaluating a new sequence in the OHM format (requires a Vicon system and an Asus ZenFone AR)
+### Less Common Tasks
 
-* Step 1:
+#### Capture and evaluate a new sequence in the OHM format
+
+*Requires:* Asus ZenFone AR, Drone, Futaba T6K, TangoCapture, Vicon System
+
+*Note #1:* This is more of an aide-mémoire, as end users are unfortunately quite unlikely to have all of the hardware and software necessary to do this.
+
+*Note #2:* If you want to use the automated scripts (recommended), then choose a name for the sequence and set the output sequence directory to e.g. `C:/datasets/ohm/<sequence name>`. The rest of these instructions assume you've done this (if not, you'll need to dig into the scripts accordingly).
+
+* **Step 1: Capture the drone sequence**
 
   ```
   run_vicon_visualiser.py --persistence_folder=<output sequence dir> --persistence_mode=output --run_server
   run_height_based_metric_drone_client.py -t tello -r --output_dir=<output sequence dir> --save_scale
   ```
 
-* Step 2:
+* **Step 2: Reconstruct the drone sequence**
 
   ```
-  calculate_vicon_from_world.py -s <output sequence dir> --save
+  reconstruct_ohm_sequence.sh <sequence name>
   ```
 
-* Step 3:
+* **Step 3: Capture the ground-truth sequence**
 
-  ```
-  run_mask_rcnn_skeleton_detection_service.py
-  run_lcrnet_skeleton_detection_service.py -p 7853
-  run_open3d_mapping_server.py -p wait --debug --detect_skeletons --max_depth=4.0 --voxel_size=0.025 --save_reconstruction --output_dir=<output sequence dir>/reconstruction --reconstruction_filename=world_mesh.ply
-  run_vicon_disk_client.py -s <output sequence_dir> --use_tracked_poses --use_vicon_scale
-  ```
+  You'll need an Asus ZenFone AR for this, and a copy of TangoCapture. You'll then need to copy it across to the PC using `adb pull`.
 
-* Step 4:
+* **Step 4: Reconstruct the ground-truth sequence**
 
-  ```
-  run_lcrnet_skeleton_detection_service.py
-  run_lcrnet_skeleton_detection_service.py -p 7853
-  run_octomap_mapping_server.py -p wait --detect_skeletons --max_depth=4.0 --octree_voxel_size=0.05 --save_skeletons --output_dir=<output sequence dir>/people/lcrnet
-  run_vicon_disk_client.py -s <output sequence dir> --use_tracked_poses --use_vicon_scale
-  ```
-
-  (+ analogous for XNect with the obvious changes)
-
-* Step 5 (requires a specific branch of [SemanticPaint](https://github.com/sgolodetz/spaint/tree/smglib-wytham)):
+  *Note:* This uses scripts from the `smglib-wytham` branch of [SemanticPaint](https://github.com/sgolodetz/spaint/tree/smglib-wytham), which you'll need to build separately.
 
   ```
   associate_hacked.py --max_difference 1 <gt sequence dir>/depth.txt <gt sequence dir>/rgb.txt > <gt sequence dir>/associations.txt
   extract_poses.exe <gt sequence dir>
-  spaintgui.exe -s <gt sequence dir>/frames -t Disk --renderFiducials --relocaliserType=none --saveMeshOnExit --saveFiducialsOnExit
+  spaintgui.exe -s <gt sequence dir>/frames -t Disk --relocaliserType=none --saveMeshOnExit
   ```
 
-* Step 6:
+  Rename the resulting PLY file to `mesh.ply`, and copy it into `<output sequence dir>/gt`.
+
+* **Step 5: Align the ground-truth mesh with the drone mesh, and evaluate the drone mesh**
+
+  Align `<output sequence dir>/gt/mesh.ply` with `<output sequence dir>/reconstruction/world_mesh.ply` using [CloudCompare](https://www.danielgm.net/cc), and save the result as `<output sequence dir>/gt/world_mesh.ply`. A video showing how to do this can be found [here](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/living_room.html), as well as a script called `computeStats.py` that can be used to compute the evaluation metrics for the drone mesh as per the video. Since we use C2C distances rather than C2M ones, we include a tweaked version of this script called `compute_stats.py` that uses C2C distances and also runs under Python 3. (The copyright for this script clearly still belongs to Thomas Whelan, as per the notice in the file.)
+
+* **Step 6: Make the Vicon-space versions of the meshes**
 
    ```
    evaluate_metric_reconstruction.py -s <output sequence dir> --gt_render_style=uniform --reconstruction_render_style=uniform
    ```
 
-* Step 7:
+  *Note:* This is only really needed to make the `vicon_mesh.ply` files that are required by our Vicon visualiser.
 
-  TODO: CloudCompare
-
-* Step 8:
+* **Step 7: Run the 3D skeleton evaluation**
 
   ```
-  evaluate_skeleton_sequence_vs_vicon.py -s <output sequence dir>
+  evaluate_ohm_sequence.sh <sequence name>
   ```
