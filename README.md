@@ -68,6 +68,10 @@ git clone --recursive git@github.com:sgolodetz/smglib.git <root>
 ---
 - [smg-rescueflight](https://github.com/sgolodetz/smg-rescueflight/blob/master/README.md) -> everything!
 
+### Usage
+
+See [here](USAGE.md).
+
 ### Publications
 
 If you build on this framework for your research, please cite the following paper:
