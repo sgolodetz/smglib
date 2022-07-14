@@ -6,7 +6,7 @@ Our *smglib* framework encompasses many different scripts, and so we've put toge
 * You can find the scripts by name in PyCharm using `Navigate -> File...` (they're mostly in `smg-rescueflight`).
 * There are lots of different clients that you can use to feed sequences from different sources to the mapping servers. If you search for files of the form `*client.py` then you can see what's there.
 
-### Common Tasks
+## Common Tasks
 
 #### Reconstruct a GTA-IM scene (online)
 
@@ -44,7 +44,7 @@ run_drone_simulator.py -t rts --scene_mesh=C:/smglib/smg-mapping/output-2020-06-
 run_vicon_visualiser.py --persistence_folder=<input sequence dir> --persistence_mode=input
 ```
 
-### Less Common Tasks
+## Less Common Tasks
 
 #### Evaluate performance on GTA-IM
 
