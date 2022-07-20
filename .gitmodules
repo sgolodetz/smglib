@@ -1,99 +1,99 @@
 [submodule "smg-utility"]
 	path = smg-utility
-	url = git@bitbucket.org:sgolodetz/smg-utility.git
+	url = git@github.com:sgolodetz/smg-utility.git
 [submodule "smg-pyopencv"]
 	path = smg-pyopencv
-	url = git@bitbucket.org:sgolodetz/smg-pyopencv.git
+	url = git@github.com:sgolodetz/smg-pyopencv.git
 [submodule "smg-pyorbslam2"]
 	path = smg-pyorbslam2
-	url = git@bitbucket.org:sgolodetz/smg-pyorbslam2.git
+	url = git@github.com:sgolodetz/smg-pyorbslam2.git
 [submodule "smg-pyremode"]
 	path = smg-pyremode
-	url = git@bitbucket.org:sgolodetz/smg-pyremode.git
+	url = git@github.com:sgolodetz/smg-pyremode.git
 [submodule "smg-rotory"]
 	path = smg-rotory
-	url = git@bitbucket.org:sgolodetz/smg-rotory.git
+	url = git@github.com:sgolodetz/smg-rotory.git
 [submodule "smg-openni"]
 	path = smg-openni
-	url = git@bitbucket.org:sgolodetz/smg-openni.git
+	url = git@github.com:sgolodetz/smg-openni.git
 [submodule "smg-open3d"]
 	path = smg-open3d
-	url = git@bitbucket.org:sgolodetz/smg-open3d.git
+	url = git@github.com:sgolodetz/smg-open3d.git
 [submodule "smg-pyoctomap"]
 	path = smg-pyoctomap
-	url = git@bitbucket.org:sgolodetz/smg-pyoctomap.git
+	url = git@github.com:sgolodetz/smg-pyoctomap.git
 [submodule "smg-imagesources"]
 	path = smg-imagesources
-	url = git@bitbucket.org:sgolodetz/smg-imagesources.git
+	url = git@github.com:sgolodetz/smg-imagesources.git
 [submodule "smg-mapping"]
 	path = smg-mapping
-	url = git@bitbucket.org:sgolodetz/smg-mapping.git
+	url = git@github.com:sgolodetz/smg-mapping.git
 [submodule "smg-rigging"]
 	path = smg-rigging
-	url = git@bitbucket.org:sgolodetz/smg-rigging.git
+	url = git@github.com:sgolodetz/smg-rigging.git
 [submodule "smg-pyorbslam3"]
 	path = smg-pyorbslam3
-	url = git@bitbucket.org:sgolodetz/smg-pyorbslam3.git
+	url = git@github.com:sgolodetz/smg-pyorbslam3.git
 [submodule "smg-relocalisation"]
 	path = smg-relocalisation
-	url = git@bitbucket.org:sgolodetz/smg-relocalisation.git
+	url = git@github.com:sgolodetz/smg-relocalisation.git
 [submodule "smg-opengl"]
 	path = smg-opengl
-	url = git@bitbucket.org:sgolodetz/smg-opengl.git
+	url = git@github.com:sgolodetz/smg-opengl.git
 [submodule "smg-mvdepthnet"]
 	path = smg-mvdepthnet
-	url = git@bitbucket.org:sgolodetz/smg-mvdepthnet.git
+	url = git@github.com:sgolodetz/smg-mvdepthnet.git
 [submodule "smg-detectron2"]
 	path = smg-detectron2
-	url = git@bitbucket.org:sgolodetz/smg-detectron2.git
+	url = git@github.com:sgolodetz/smg-detectron2.git
 [submodule "smg-pyopenpose"]
 	path = smg-pyopenpose
-	url = git@bitbucket.org:sgolodetz/smg-pyopenpose.git
+	url = git@github.com:sgolodetz/smg-pyopenpose.git
 [submodule "smg-rescueflight"]
 	path = smg-rescueflight
-	url = git@bitbucket.org:sgolodetz/smg-rescueflight
+	url = git@github.com:sgolodetz/smg-rescueflight
 [submodule "smg-lcrnet"]
 	path = smg-lcrnet
-	url = git@bitbucket.org:sgolodetz/smg-lcrnet.git
+	url = git@github.com:sgolodetz/smg-lcrnet.git
 [submodule "smg-skeletons"]
 	path = smg-skeletons
-	url = git@bitbucket.org:sgolodetz/smg-skeletons.git
+	url = git@github.com:sgolodetz/smg-skeletons.git
 [submodule "smg-comms"]
 	path = smg-comms
-	url = git@bitbucket.org:sgolodetz/smg-comms.git
+	url = git@github.com:sgolodetz/smg-comms.git
 [submodule "smg-pyleap"]
 	path = smg-pyleap
-	url = git@bitbucket.org:sgolodetz/smg-pyleap.git
+	url = git@github.com:sgolodetz/smg-pyleap.git
 [submodule "smg-navigation"]
 	path = smg-navigation
-	url = git@bitbucket.org:sgolodetz/smg-navigation.git
+	url = git@github.com:sgolodetz/smg-navigation.git
 [submodule "smg-robotdepot"]
 	path = smg-robotdepot
-	url = git@bitbucket.org:sgolodetz/smg-robotdepot.git
+	url = git@github.com:sgolodetz/smg-robotdepot.git
 [submodule "smg-joysticks"]
 	path = smg-joysticks
-	url = git@bitbucket.org:sgolodetz/smg-joysticks.git
+	url = git@github.com:sgolodetz/smg-joysticks.git
 [submodule "smg-pyxnect"]
 	path = smg-pyxnect
-	url = git@bitbucket.org:sgolodetz/smg-pyxnect.git
+	url = git@github.com:sgolodetz/smg-pyxnect.git
 [submodule "smg-vicon"]
 	path = smg-vicon
-	url = git@bitbucket.org:sgolodetz/smg-vicon.git
+	url = git@github.com:sgolodetz/smg-vicon.git
 [submodule "smg-rotorsim"]
 	path = smg-rotorsim
-	url = git@bitbucket.org:sgolodetz/smg-rotorsim.git
+	url = git@github.com:sgolodetz/smg-rotorsim.git
 [submodule "smg-meshing"]
 	path = smg-meshing
-	url = git@bitbucket.org:sgolodetz/smg-meshing.git
+	url = git@github.com:sgolodetz/smg-meshing.git
 [submodule "smg-smplx"]
 	path = smg-smplx
-	url = git@bitbucket.org:sgolodetz/smg-smplx.git
+	url = git@github.com:sgolodetz/smg-smplx.git
 [submodule "smg-dvmvs"]
 	path = smg-dvmvs
-	url = git@bitbucket.org:sgolodetz/smg-dvmvs.git
+	url = git@github.com:sgolodetz/smg-dvmvs.git
 [submodule "smg-rotorcontrol"]
 	path = smg-rotorcontrol
-	url = git@bitbucket.org:sgolodetz/smg-rotorcontrol.git
+	url = git@github.com:sgolodetz/smg-rotorcontrol.git
 [submodule "smg-mediapipe"]
 	path = smg-mediapipe
-	url = git@bitbucket.org:sgolodetz/smg-mediapipe.git
+	url = git@github.com:sgolodetz/smg-mediapipe.git
