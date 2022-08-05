@@ -38,6 +38,7 @@ dependencies:
     - decorator==4.4.2
     - defusedxml==0.6.0
     - deprecation==2.1.0
+    - distro==1.7.0
     - dsacstar==0.0.0
     - entrypoints==0.3
     - enum34==1.1.10
@@ -133,6 +134,7 @@ dependencies:
     - requests-unixsocket==0.2.0
     - rsa==4.7
     - scapy==2.4.4
+    - scikit-build==0.15.0
     - scikit-image==0.19.2
     - scikit-learn==0.24.1
     - scipy==1.5.4
