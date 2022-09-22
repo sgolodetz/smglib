@@ -12,6 +12,7 @@ dependencies:
   - wincertstore=0.2=py37_0
   - pip:
     - absl-py==0.11.0
+    - aiofile==3.8.1
     - amazon-transcribe==0.6.0
     - antlr4-python3-runtime==4.8
     - anyio==3.3.2
@@ -26,6 +27,7 @@ dependencies:
     - black==21.4b2
     - bleach==3.2.1
     - cachetools==4.2.1
+    - caio==0.9.8
     - cffi==1.14.4
     - chardet==4.0.0
     - chumpy==0.70
@@ -93,7 +95,7 @@ dependencies:
     - numpy==1.19.4
     - oauthlib==3.1.0
     - omegaconf==2.1.1
-    - open3d==0.13.0
+    - open3d==0.15.1
     - opencv-contrib-python==3.4.2.16
     - openni==2.3.0
     - packaging==20.4
